@@ -12,6 +12,7 @@ const departmentSchema = mongoose.Schema(
       required: true,
       trim: true,
     },
+    // departments: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Department' }],
   },
   { timestamps: true }
 );
